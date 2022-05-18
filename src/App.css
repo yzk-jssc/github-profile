@@ -1,0 +1,89 @@
+
+
+@font-face {
+    font-family: "Koulen";
+    src: url('./fonts/Koulen-Regular.ttf') format('truetype');
+    font-weight: 700;
+}
+
+body{
+    font-family: 'Koulen';
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__title{
+    margin: 0;
+}
+
+.github__profile{
+    min-width: 620px;
+}
+
+.profile__serach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 10px 0;
+    padding: 10px;
+}
+
+.user__search{
+    margin-right: 2px;
+    width: 187px;
+    height: 25px;
+    border: 1px  solid black;
+    border-radius: 6px 0 0px 6px;
+    outline: none;
+    padding-left: 9px;
+}
+
+.user__button{
+    height: 29px;
+    text-transform: lowercase;
+    border: 1px solid black;
+    border-radius: 0px 6px 6px 0px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .35s;
+}
+
+.user__button:hover{
+    background-color: rgb(53, 52, 52);
+    color: #fff;
+}
+
+
+.profile__item{
+    display: flex;
+}
+
+.profile__person{
+    display: flex;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.person__avatar_img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 0px 1px 4px 2px rgba(119, 107, 107, 0.301);
+    margin-right: 14px;
+}
+
+.repos__link{
+    color: #000;
+    transition: all .3s;
+
+}
+
+.repos__link:hover{
+    color: blue;
+}
